@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/QA88Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands_for_terminal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_selectors_css.py" afterDir="false" />
+    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="Start">
+      <change beforePath="$PROJECT_DIR$/tests/test_selectors_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_selectors_css.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MedSveta"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MedSveta/QA88Demo.git",
+    "accountId": "0a451f1f-f0e4-4e79-86b3-48c1d36ce7b8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -65,7 +66,7 @@
       <recent name="C:\MyPythonProjects\QA88Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_selectors_css.py">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css">
     <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCss" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88Demo" />
       <option name="ENV_FILES" value="" />
@@ -113,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_selectors_css.py" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss" />
+        <item itemvalue="Python tests.Python tests in test_selectors_css.py" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +135,19 @@
       <option name="presentableId" value="Default" />
       <updated>1789993003947</updated>
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <option name="closed" value="true" />
+      <created>1790077317238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790077317238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
 </project>
