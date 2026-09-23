@@ -7,8 +7,8 @@ BASE_URL = "https://demoqa.com/"
 @pytest.fixture()
 def driver():
     driver = webdriver.Chrome()
-    driver.maximize_window()
-    #driver.set_window_size(1920, 1080)
+    #driver.maximize_window()
+    driver.set_window_size(1920, 1080)
     driver.set_page_load_timeout(10)
     driver.implicitly_wait(10)
 
