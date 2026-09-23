@@ -7,9 +7,9 @@ def hide_footer(driver):
     driver.execute_script("document.querySelector('footer').style.display='none'")
 
 
-def scroll_down(self, steps: int = 10, pixels: int = 500, pause: float = 0.5) -> None:
+def scroll_down(driver, steps: int = 10, pixels: int = 500, pause: float = 0.5) -> None:
     for _ in range(steps):
-        ActionChains(self.driver).scroll_by_amount(0, pixels).perform()
+        ActionChains(driver).scroll_by_amount(0, pixels).perform()
         time.sleep(pause)
 
 class TestSelectorsCss:
