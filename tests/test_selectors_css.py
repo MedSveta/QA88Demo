@@ -84,6 +84,48 @@ class TestSelectorsCss:
         time.sleep(2)
 
 
+    def test_selectors_css_parts(self, driver):
+        time.sleep(2)
+        # поиск по части аттрибута By.CSS_SELECTOR
+        # div.category-cards>a:nth-child(2)
+        driver.find_element(By.CSS_SELECTOR, "div[class*='ory-card']>a:nth-child(2)").click()
+        time.sleep(2)
+        driver.back()
+
+        # поиск по части аттрибута начинается с  By.CSS_SELECTOR
+        driver.find_element(By.CSS_SELECTOR, "div[class^='category']>a:nth-child(2)").click()
+        time.sleep(2)
+        driver.back()
+
+        # поиск по части аттрибута заканчивается на  By.CSS_SELECTOR
+        driver.find_element(By.CSS_SELECTOR, "div[class$='-cards']>a:nth-child(2)").click()
+
+        # //a[@class='router-link'] By.Xpath
+        # a[class='router-link']    By.CSS
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//a[@href='/automation-practice-form']").click()
+
+    def test_selectors_xpath(self, driver):
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//a[@href='/elements']").click()
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//a[@href='/text-box']").click()
+        driver.find_element(By.XPATH, "//input[@placeholder='Full Name']").send_keys("Monkey")
+        # //*[@placeholder='Full Name']
+        # //form/div[2]/div[2]/input
+        driver.find_element(By.XPATH, "//form/div[2]/div[2]/input").send_keys("monkey123@gmail.com")
+        # //*[text()='Current Address']/../..//textarea
+        driver.find_element(By.XPATH, "//*[text()='Current Address']/../..//textarea").send_keys("Address 1")
+        driver.find_element(By.XPATH, "//*[@id='permanentAddress-wrapper']/div[2]/textarea").send_keys("Address 2")
+        driver.find_element(By.XPATH, "//button[text()='Submit']").click()
+
+        div_output = driver.find_element(By.XPATH, "//div[@id='output']")
+
+        assert "Monkey" in div_output.text
+
+
+
+
 
 
 
