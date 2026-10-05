@@ -123,6 +123,56 @@ class TestSelectorsCss:
 
         assert "Monkey" in div_output.text
 
+    def test_selectors_xpath_parts(self, driver):
+        time.sleep(2)
+
+        #div[class='category-cards']>a[href='/elements'] CSS
+        #//div[@class='category-cards']/a[@href='/elements'] XPATH
+        # //div[contains(@class, 'ory-cards')]/a[@href='/elements'] XPATH contains part
+        # //*[contains(@class, 'ory-cards')]/a[@href='/elements'] XPATH contains part
+        driver.find_element(By.XPATH, "//div[contains(@class, 'ory-cards')]/a[@href='/elements']").click()
+        time.sleep(2)
+        # //a[@href='/radio-button'] XPATH
+        # //*[starts-with(@href,'/radio-b')] XPATH starts-with
+        driver.find_element(By.XPATH, "//*[starts-with(@href,'/radio-b')]").click()
+        time.sleep(2)
+        # id="yesRadio" class="form-check-input"
+        # //input[@id='yesRadio' and @class='form-check-input'] объединение условий
+        driver.find_element(By.XPATH, "//input[@id='yesRadio' and @class='form-check-input']").click()
+        time.sleep(2)
+
+        #//input[@id='impressiveRadio' or @class='from-check-input'] поиск по одному из условий
+        driver.find_element(By.XPATH, "//input[@id='impressiveRadio' or @class='from-check-input']").click()
+        time.sleep(2)
+
+        # //input[contains(@id,'yesRad') and starts-with(@class,'form-che')] объединение условий, contains part, starts-with
+        driver.find_element(By.XPATH, "//input[contains(@id,'yesRad') and starts-with(@class,'form-che')]").click()
+        time.sleep(2)
+        #driver.find_element(By.LINK_TEXT, "/text-box").click()
+        #div[class='element-list accordion-collapse collapse show'] li:nth-child(2)>a CSS
+        #//div[@class='element-list accordion-collapse collapse show']//li[3]/a XPATH
+
+
+        driver.find_element(By.CSS_SELECTOR, "div[class='element-list accordion-collapse collapse show'] li:nth-child(2)>a").click()
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//div[@class='element-list accordion-collapse collapse show']//li[3]/a").click()
+        # //label[text()='No']/../../div[1]/input
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//label[text()='No']/../../div[1]/input").click()
+
+    def test_selectors_links(self, driver):
+        time.sleep(2)
+        driver.find_element(By.PARTIAL_LINK_TEXT, "elements").click()
+
+
+
+
+
+
+
+
+
+
 
 
 

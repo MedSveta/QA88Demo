@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="Css selectors">
+    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="Xpath selectors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_selectors_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_selectors_css.py" afterDir="false" />
     </list>
@@ -51,7 +51,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.executor": "Run",
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css.executor": "Run",
+    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links.executor": "Run",
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath.executor": "Run",
+    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts.executor": "Run",
     "Python tests.Python tests in test_selectors_css.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,7 +70,7 @@
       <recent name="C:\MyPythonProjects\QA88Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links">
     <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCss" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88Demo" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +101,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA88Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_selectors_css.TestSelectorsCss.test_selectors_links&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88Demo" />
       <option name="ENV_FILES" value="" />
@@ -114,7 +131,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_selectors_css.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88Demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,16 +142,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_selectors_css.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links" />
+        <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss" />
-        <item itemvalue="Python tests.Python tests in test_selectors_css.py" />
       </list>
     </recent_temporary>
   </component>
@@ -185,12 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1790167157651</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Xpath selectors">
+      <option name="closed" value="true" />
+      <created>1790252958920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790252958920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="Css selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Css selectors" />
+    <MESSAGE value="Xpath selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Xpath selectors" />
   </component>
 </project>
