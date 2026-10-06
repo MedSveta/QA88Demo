@@ -161,8 +161,13 @@ class TestSelectorsCss:
         driver.find_element(By.XPATH, "//label[text()='No']/../../div[1]/input").click()
 
     def test_selectors_links(self, driver):
+        driver.find_element(By.XPATH, "//div[contains(@class, 'ory-cards')]/a[@href='/elements']").click()
         time.sleep(2)
-        driver.find_element(By.PARTIAL_LINK_TEXT, "elements").click()
+
+        driver.find_element(By.LINK_TEXT, "Links").click() #по полному тексту в tag <a/>
+        time.sleep(2)
+        driver.find_element(By.PARTIAL_LINK_TEXT, "No Conte").click()
+
 
 
 

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="Xpath selectors">
+    <list default="true" id="0b71cb31-307b-4322-b59a-f000914a158c" name="Changes" comment="test_selectors_xpath_parts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_selectors_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_selectors_css.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.executor": "Run",
-    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css.executor": "Run",
-    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links.executor": "Run",
-    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath.executor": "Run",
-    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts.executor": "Run",
-    "Python tests.Python tests in test_selectors_css.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/MyPythonProjects/QA88Demo",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_css.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_links.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_selectors_css.TestSelectorsCss.test_selectors_xpath_parts.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_selectors_css.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyPythonProjects/QA88Demo&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyPythonProjects\QA88Demo" />
@@ -211,13 +210,22 @@
       <option name="project" value="LOCAL" />
       <updated>1790252958920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test_selectors_xpath_parts">
+      <option name="closed" value="true" />
+      <created>1791203125922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791203125922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="Css selectors" />
     <MESSAGE value="Xpath selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Xpath selectors" />
+    <MESSAGE value="test_selectors_xpath_parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_selectors_xpath_parts" />
   </component>
 </project>
